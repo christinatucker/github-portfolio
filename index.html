@@ -1,101 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christina Tucker | Portfolio</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christina Tucker | Portfolio</title>
+  <!-- Bootstrap CSS CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+      body {
+          background-color: #EFEBCE;
+      }
 
-        body {
-            background: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
+      header {
+          background-color: #A3A380; 
+          color: black;
+          padding: 2rem 0;
+      }
 
-        header {
-            background: #282c34;
-            color: #fff;
-            padding: 2rem;
-            text-align: center;
-        }
+      footer {
+          background-color: #A3A380;
+          color: white;
+          text-align: center;
+          padding: 1rem;
+          margin-top: 2rem;
+      }
 
-            header h1 {
-                font-size: 2.5rem;
-                margin-bottom: 0.5rem;
-            }
+      .project {
+          background-color: #D8A48F;
+          border-radius: 0.5rem;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          padding: 1.5rem;
+          margin-bottom: 2rem;
+      }
 
-            header p {
-                font-size: 1.2rem;
-            }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
 
-        main {
-            padding: 2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .project {
-            background: #fff;
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-            .project h2 {
-                margin-bottom: 0.5rem;
-                color: #282c34;
-            }
-
-            .project p {
-                color: #555;
-            }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-            background: #282c34;
-            color: #fff;
-        }
-
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-
-            a:hover {
-                text-decoration: underline;
-            }
-    </style>
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | Open Source Enthusiast | Lifelong Learner</p>
-    </header>
-    <main>
-        <section class="project">
-            <h2>Project One</h2>
-            <p>A short description of your project. <a href="https://github.com/yourusername/project-one">View on GitHub</a></p>
-        </section>
-        <section class="project">
-            <h2>Project Two</h2>
-            <p>Another brief project description. <a href="https://github.com/yourusername/project-two">View on GitHub</a></p>
-        </section>
-        <section class="project">
-            <h2>About Me</h2>
-            <p>Write a few sentences about who you are, what you love to do, and what drives your work.</p>
-        </section>
-    </main>
-    <footer>
-        &copy; 2025 Your Name. All rights reserved.
-    </footer>
+
+  <!-- Header -->
+  <header class="text-center">
+    <div class="container">
+      <h1 class="display-4"><b>Christina Tucker</b></h1>
+      <p class="lead">Software Developer | Lifelong Learner</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+
+      <div class="project text-center">
+          <h2>About Me</h2>
+          <p>
+              My name is <strong>Christina Tucker</strong>.<br />
+              I'm a programmer living in the Sea-to-Sky area with a passion for all things IT.
+          </p>
+          <p>Location: Whistler, BC<br />Canada</p>
+          <p>Languages: English - Native<br />French - C1<br />German - B1</p>
+          <a href="https://www.linkedin.com/in/christina-tucker/" target="_blank">Check out my LinkedIn</a>
+      </div>
+
+    <div class="project text-center">
+      <h2>Project One</h2>
+      <p>Coming soon!
+      </p>
+    </div>
+<!--
+    <div class="project">
+      <h2>Project Two</h2>
+      <p>Another brief project description.
+        <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+      </p>
+    </div>
+    -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Christina. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS Bundle (Optional for Bootstrap components that use JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
